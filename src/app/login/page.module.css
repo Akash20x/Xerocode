@@ -1,0 +1,176 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2d2a2a;
+    box-shadow: 0 12px 40px rgb(255 255 255 / 12%);
+    border-radius: 0.375rem;
+    width: 20rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    background: rgba(39,39,42,0.5);
+}
+
+.title{
+    margin-top: 0;
+}
+
+.oAuthButton{
+    display: flex;   
+    align-items: center;
+    gap:14px;
+    height: 2.5rem;
+    background: white;
+    border: transparent;
+    padding-left: 0.5rem;
+    width: 90%;
+    justify-content: flex-start;
+    border-radius: 8px;
+    font-size: 1rem;
+   margin-bottom: 16px;
+   cursor: pointer;
+}
+
+.image{
+    width: 25px;
+}
+
+.alternateDivider{
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 0 0 0;
+    margin-bottom: 16px;
+}
+
+
+.alternateDivider span{
+    text-align: center;
+    flex: 0.2 0 auto;
+    margin: 0;
+}
+
+.alternateDivider::before{
+    content: "";
+    border-bottom: 1px solid #c2c8d0;
+    flex: 1 0 auto;
+    height: 0.5em;
+    margin: 0;
+}
+
+.alternateDivider::after{
+    content: "";
+    border-bottom: 1px solid #c2c8d0;
+    flex: 1 0 auto;
+    height: 0.5em;
+    margin: 0;
+}
+
+.form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.form label{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    line-height: 1.25rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.eyeIcon{
+    position: absolute;
+    right: 0.8rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.form input{
+    width: 100%;
+    background-color: rgba(128,128,255,0.1);
+    border-radius: 0.375rem;
+    height: 1.8rem;
+    border-style: solid;
+    outline: none;
+    color: white;
+    border-width: 1px;
+    border-color: #212121;
+    text-indent: 10px;
+}
+
+.form input:focus{
+    border-color: rgba(99,102,241,1);
+}
+
+.form button{
+border-radius: 0.375rem;
+background:rgb(83 75 215);
+height: 2.5rem;
+color: white;
+font-size: 0.9rem;
+border-style: solid;
+border-color: transparent;
+margin: 1rem 0;
+cursor: pointer;
+outline: none;
+}
+
+.form button:hover{
+    background: rgba(67,56,202,1);
+}
+
+
+.extText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0;
+    font-size: 0.875rem;
+    width: 88%;
+}
+
+.extBtn{
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-left: 5px;
+    padding: 4px;
+    text-decoration: none;
+    line-height: 1.5;
+    color:rgb(83 75 215);
+}
+
+.extBtn:active{
+    background: rgb(186, 182, 230);
+    border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 360px){
+    .container{
+       width: 100%;
+       padding: unset;
+    }
+ 
+    }

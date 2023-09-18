@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 80px;
+    color: white;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.72px;
+    font-size: 1.25rem;
+}
+
+.boldText{
+    font-weight: 700;
+}
+

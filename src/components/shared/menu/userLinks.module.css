@@ -1,0 +1,42 @@
+.container{
+    color:white;
+}
+
+.menuIcon{
+    cursor: pointer;
+    position: relative;
+}
+
+.menuContainer{
+    background: white;
+    position: absolute;
+    right: 5px;
+    top: 75%;
+    border-radius: 0.375rem;
+    width: 7.5rem;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+
+.menuItem{
+    list-style-type: none;
+    color: rgb(15, 1, 1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menuItemText{
+    text-decoration: none;
+    margin-left: 4px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: 2px;
+}
+
+
+.menuItem:hover{
+    background: #e5e7eb;
+}

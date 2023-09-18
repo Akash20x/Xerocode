@@ -1,0 +1,28 @@
+.container{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+
+.container p{
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: center;
+}
+
+.container button{
+    background: rgb(83 75 215);
+    padding: 0.8rem;
+    border-radius: 10px;
+    color: white;
+    border: transparent;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1rem;
+}

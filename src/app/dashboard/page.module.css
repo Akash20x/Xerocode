@@ -1,0 +1,23 @@
+.container{
+    min-height: 50vh;
+}
+
+.profileContainer{
+    text-align: center;
+    color: white;
+    width: 26rem;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    border: 2px solid #6767d3;
+    border-radius: 5px;
+}
+
+.profileTitle{
+    color: #7e5edc 
+}
+
+@media screen and (max-width: 560px){
+.profileContainer{
+    width: 98%;
+}
+}

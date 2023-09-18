@@ -1,0 +1,112 @@
+
+.title{
+    font-weight: 700;
+    font-size: 2.3rem;
+    background: linear-gradient(to right, #4E4BE4, #E862FE);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 61.6px;
+    text-align: center;  
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #181924;
+    border-radius: 40px;
+    padding: 32px 32px;
+    margin: 1rem;
+    width: 30.5rem;
+    position: relative;
+}
+
+.cardHeading{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 59.4px;
+    background: linear-gradient(to right, #4E4BE4, #E862FE);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.cardDesc{
+    font-weight: 400;
+    font-size: 1rem;    
+    line-height: 30px;
+    padding: 16px 0;
+    color: white;
+    letter-spacing: 0.5px;
+    line-height: 33px;
+    margin: 0 auto;
+}
+
+.cardButton{
+
+    font-weight: 700;
+    font-size: 14px; 
+    line-height: 24px;   
+    background-color: #4F4CE5;
+    border-radius: 30px;
+    padding: 10px 22px 10px 22px;
+    width: 7rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.image{
+    width: 10.25rem;
+    height: 8.75rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.custom{
+    width: 46rem;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.custom .cardHeading{
+    font-size: 34px;
+    line-height: unset;
+}
+
+.custom .cardDesc{
+    font-weight: 400;
+}
+
+
+
+.preFooter{
+    text-align: center;
+}
+
+.preFooterTitle{
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin: 0 auto;
+    margin-top: 95px;
+    line-height: 60.81px;
+    background: linear-gradient(to right, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.preFooterDesc{
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.72px;
+    font-size: 20px;
+    color:white;
+}
