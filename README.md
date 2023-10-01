@@ -6,7 +6,8 @@
 #### Live Demo: https://akash-xerocode.vercel.app/
 
 ## Technologies used: 
-* Next.js 13 
+* Next.js 13
+* Typescript
 * NextAuth
 * CSS Modules
 * MongoDB Database
